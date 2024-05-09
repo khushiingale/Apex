@@ -1,0 +1,24 @@
+public class Calculator {
+    public integer add(integer a,integer b){
+        return a+b;
+    }
+    
+
+    public integer sub(integer a,integer b){
+        return a-b;
+
+    }
+    public integer mul(integer a,integer b){
+        return a*b;
+    }
+    public integer div(integer a,integer b){
+        return a/b; 
+    }   
+}
+
+
+Calculator c = new Calculator();
+system.debug('the addition'+c.add(20,10));
+system.debug('the substraction'+c.sub(20,10));
+system.debug('the multiplication'+c.mul(20,10));
+system.debug('the division'+c.div(20,10));
